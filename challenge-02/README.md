@@ -24,7 +24,7 @@ Files provided:
 
 - As stretch goal, think about containerization of code for deployment & to have dependency requirements freeze
 
-- Hint: you may need to import few Pythons’ Network Programming Modules
+- Hint: you may need to import few Network Programming Modules
 
 - Submit/commit your code as a new file/s to your personal repo folder named challenge-02
 
