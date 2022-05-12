@@ -1,1 +1,0 @@
-Hello there!  This is DEV Golang web server!

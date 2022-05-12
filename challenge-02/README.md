@@ -4,43 +4,33 @@ Files provided:
 ```
 ├── challenge-02
 │   ├── README.md
-│   └── golang
-│       ├── file.txt
-│       └── server.go
+│   ├── input_fqdn.csv
+│   └── sample_output.csv
 ```
+
 
 ## Ask
-- Please find `golang` folder which has simple web server implementation in go. Server reads file.txt and displays the contents as home page.
+- Please find two files `input_fqdn.csv` and `sample_output.csv`. 
+- `input_fqdn.csv` should be used as input to your solution code and `sample_output.csv` file as name suggests is just sample output we expect.
 
-- Server can be built with CLI command. This will provide executable file `server`
-```
-#cd golang 
-#go build server.go
-```
-- Server can be started by CLI command
-```
-#./server 
-```
-- You will also find two files, which should be read based on the Deployment environment instead of file.txt content by server.
-```
-file-dev.txt --> file read for DEV environment
-file-prood.txt --> file read for PROD environment
-```
-- Your task is to work on Deployment files for this server. Start with containerizing the app and then use `docker-compose` to deploy.
-- As stretch goal, think about observability and what can be done.
+- Your task is to take a file as input and based on fqdn/website address in the file extract bellow three values
+- - IP : IPv4 address DNS will give for that websites/fqdn. 
+- - DNS_time_ms : Time in ms your code took to resolve DNS.
+- - HTTP_handshake_time_ms : Time in ms your code took to make http Request to website/fqdn's IP. 
 
-- Make sure at deployment time, you can pass Environment as parameter to select value DEV/PROD. Based on Environment server should display contents of either file-dev.txt or file-prod.txt
+- In your solution code Try to handle all the possible cases and errors. 
+
+- Try pay attention to improve scalability(when list has 50,000+ websites), reliability, fastness, maintainability, observability, testability, deployability of your code.
+
+- As stretch goal, think about containerization of code for deployment & to have dependency requirements freeze
 
 - Hints:
-  1) you can't change server.go but can manipulate file*.* files in your deployment.
-  2) make sure your process includes golang build, run, deploy steps accordingly.
-  
+  1) you may need to import few Pythons’ Network Programming Modules
+
 - Submit/commit your code as a new file/s to your personal repo folder named challenge-02
 
-- Please provide complete written instructions on how to use your solution files. Like how to run, build, deploy.
+- Please provide complete written instructions on how to use your solution files. Like how to run, build, deploy..etc
 
 ## Solution 
 ???
-
-
 
