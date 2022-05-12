@@ -12,7 +12,7 @@ Files provided:
 ## Ask
 - Please find two files `input_fqdn.csv` and `sample_output.csv`. 
 
-- `input_fqdn.csv` should be used as input to your solution code and `sample_output.csv` file as name suggests is just sample output we expect.
+- `input_fqdn.csv` should be used as input to your solution code and `sample_output.csv` file as name suggests is just sample output format.
 
 - Your task is to take a file as input and based on fqdn/website address in the file extract bellow three values
    - IP : IPv4 address DNS will give for that websites/fqdn. 
