@@ -11,12 +11,15 @@ Files provided:
 
 ## Ask
 - Please find two files `input_fqdn.csv` and `sample_output.csv`. 
+
 - `input_fqdn.csv` should be used as input to your solution code and `sample_output.csv` file as name suggests is just sample output we expect.
 
 - Your task is to take a file as input and based on fqdn/website address in the file extract bellow three values
    - IP : IPv4 address DNS will give for that websites/fqdn. 
    - DNS_time_ms : Time in ms your code took to resolve DNS and get IP.
    - HTTP_handshake_time_ms : Time in ms your code took to make http Request handshake to website/fqdn's. 
+
+- Use your preferred Programming/Scripting language to code your solution.
 
 - In your solution code try to handle all the possible cases and errors. 
 
