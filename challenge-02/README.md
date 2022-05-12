@@ -15,10 +15,10 @@ Files provided:
 
 - Your task is to take a file as input and based on fqdn/website address in the file extract bellow three values
 - - IP : IPv4 address DNS will give for that websites/fqdn. 
-- - DNS_time_ms : Time in ms your code took to resolve DNS.
-- - HTTP_handshake_time_ms : Time in ms your code took to make http Request to website/fqdn's IP. 
+- - DNS_time_ms : Time in ms your code took to resolve DNS and get IP.
+- - HTTP_handshake_time_ms : Time in ms your code took to make http Request handshake to website/fqdn's. 
 
-- In your solution code Try to handle all the possible cases and errors. 
+- In your solution code try to handle all the possible cases and errors. 
 
 - Try pay attention to improve scalability(when list has 50,000+ websites), reliability, fastness, maintainability, observability, testability, deployability of your code.
 
