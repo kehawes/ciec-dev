@@ -14,9 +14,9 @@ Files provided:
 - `input_fqdn.csv` should be used as input to your solution code and `sample_output.csv` file as name suggests is just sample output we expect.
 
 - Your task is to take a file as input and based on fqdn/website address in the file extract bellow three values
-- - IP : IPv4 address DNS will give for that websites/fqdn. 
-- - DNS_time_ms : Time in ms your code took to resolve DNS and get IP.
-- - HTTP_handshake_time_ms : Time in ms your code took to make http Request handshake to website/fqdn's. 
+   - IP : IPv4 address DNS will give for that websites/fqdn. 
+   - DNS_time_ms : Time in ms your code took to resolve DNS and get IP.
+   - HTTP_handshake_time_ms : Time in ms your code took to make http Request handshake to website/fqdn's. 
 
 - In your solution code try to handle all the possible cases and errors. 
 
@@ -24,8 +24,7 @@ Files provided:
 
 - As stretch goal, think about containerization of code for deployment & to have dependency requirements freeze
 
-- Hints:
-  1) you may need to import few Pythons’ Network Programming Modules
+- Hint: you may need to import few Pythons’ Network Programming Modules
 
 - Submit/commit your code as a new file/s to your personal repo folder named challenge-02
 
